@@ -243,6 +243,10 @@ body {
 		line-height: 1.5;
 	}
 
+	.featurette .label {
+		margin-bottom: 10px;
+	}
+
 }
 
 .carousel-img {
