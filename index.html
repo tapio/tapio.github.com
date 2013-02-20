@@ -1,121 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<title>Tapio</title>
-</head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tapio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Tapio's website">
+		<meta name="author" content="Tapio Vierros">
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+		<link href="css/styles.css" rel="stylesheet" />
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
 
-<body><div id="container"><div class="inner">
+		<!-- NAVBAR
+		================================================== -->
+		<div class="navbar-wrapper">
+			<div class="container">
+				<div class="navbar navbar-inverse">
+					<div class="navbar-inner">
+						<!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="brand" href="#">Tapio</a>
+						<!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="http://blog.tapiov.net"><img src="img/blog-16.png" alt=""></img> Blog</a></li>
+								<li><a href="https://github.com/tapio"><img src="img/octocat-16.png" alt=""></img> GitHub</a></li>
+								<li><a href="https://twitter.com/tapio000"><img src="img/twitter-16.png" alt=""></img> Twitter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	<header>
-		<h1>Tapio</h1>
-		<h2>GitHub portfolio</h2>
-	</header>
 
-	<section id="downloads" class="clearfix">
-		<a href="https://github.com/tapio" id="view-on-github" class="button"><span>View on GitHub</span></a>
-		<a href="http://tapiov.net" id="blog-link" class="button"><span>Read blog</span></a>
-	</section>
+		<!-- Carousel
+		================================================== -->
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="shots/plasmaforks.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Plasma Forks</h1>
+							<p class="lead">Short but gorgeous 3d scifi first-person shooter in the web browser.</p>
+							<a class="btn btn-success" href="http://tapio.github.com/plasma-forks/">Play &raquo;</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="shots/darkcorners.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Dark Corners</h1>
+							<p class="lead">Medieval 3d browser game prototype with dynamic lighting and physics. Powers Plasma Forks.</p>
+							<a class="btn btn-large btn-success" href="http://tapio.github.com/darkcorners/">Try &raquo;</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="shots/jetpursuit.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Jet Pursuit</h1>
+							<p class="lead">Top-down high velocity shooter with fighter jets and homing missiles!</p>
+							<a class="btn btn-large btn-success" href="#">Play &raquo;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
 
-	<hr>
 
-	<section id="main_content">
+		<!-- Marketing messaging and featurettes
+		================================================== -->
+		<div class="container marketing">
 
-		<h2>About</h2>
-		<p>This is my open source coding portfolio. I develop mainly on Linux,
-		but in a cross-platform way. My weapons of choice are C++, HTML5/CSS3/JS/WebGL
-		and Bash, though I can also find my way around Python, C, FreeBASIC, PHP and Java.</p>
+			<div class="featurette">
+				<img class="featurette-image pull-right" src="img/avatar.png">
+				<h2 class="featurette-heading">My open source projects. <span class="muted"></span></h2>
+				<p class="lead">I code with JavaScript and C++, among others.</p>
+			</div>
+			<hr class="featurette-divider">
 
-		<h2>Projects I'm contributing to</h2>
-		<p>I have not created these projects, but contributed quite much code to them.</p>
-		<ul>
-		<li><a href="http://code.google.com/p/vdrift-ogre">Stunt Rally</a> - Rally game with stunt elements and track editor</li>
-		<li><a href="http://performous.org">Performous</a> - The all-in-one music and rhythm game
-			<ul><li>Also, <a href="http://performous.org/composer">Composer</a> - song creator for Performous</li></ul>
-		</li>
-		</ul>
+			<!-- FOOTER -->
+			<footer>
+				<p class="pull-right"><a href="#">Back to top</a></p>
+				<p>&copy; 2013 Tapio Vierros</p>
+			</footer>
 
-		<h2>Projects that have accepted my patches</h2>
-		<p>Smaller scale contributions.</p>
-		<ul>
-		<li><a href="https://github.com/mrdoob/three.js">Three.js</a> - JavaScript 3D library</li>
-		<li><a href="http://chandlerprall.github.com/Physijs">Physijs</a> - Physics plugin for Three.js</li>
-		<li><a href="https://github.com/qiao/PathFinding.js">PathFinding.js</a> - JavaScript path-finding library</li>
-		<li><a href="https://github.com/elmindreda/Wendy">Wendy</a> - A simple C++ game engine</li>
-		<li><a href="http://www.coldestgame.com">Coldest</a> - Mech combat game</li>
-		<li><a href="https://github.com/lubosz/liblub">Liblub</a> - An OpenGL 3+4 framework</li>
-		<li><a href="http://ork.gforge.inria.fr">OpenGL Rendering Kernel</a> - C++ API on top of OpenGL</li>
-		</ul>
+		</div>
 
-		<h2>My own projects</h2>
 
-		<h3>Featured</h3>
-		<ul>
-			<li><a href="http://tapio.github.com/darkcorners/">Dark Corners</a> - 3D web browser game prototype</li>
-			<li><a href="http://tapio.github.com/plasma-forks/">Plasma Forks</a> - Scifi first-person shooter based on Dark Corners</li>
-		</ul>
-
-		<h3>Roguelikes</h3>
-		<p>Small but complete games of the <a href="https://en.wikipedia.org/wiki/Roguelike">roguelike</a> genre.</p>
-		<ul>
-		<li>7DRL 2012: <a href="http://roguebasin.roguelikedevelopment.org/index.php?title=Infiniverse">Infiniverse.js</a> - Ambitious space exploration</li>
-		<li>7DRL 2011: <a href="http://tapio.github.com/alawid">A Little Anxious When It's Dark</a> - Top-down 3d WebGL dungeon hack</li>
-		<li>7DRL 2010: <a href="http://tapio.github.com/cotc">City of the Condemned</a> - Angels vs. demons in battle for human souls</li>
-		<li><a href="https://github.com/tapio/1kbrl">1kbrl</a> - A tiny roguelike in C++ and FreeBASIC</li>
-		</ul>
-
-		<p>Also related:</p>
-		<ul>
-		<li><a href="http://tapio.github.com/unicodetiles.js">Unicodetiles.js</a> - A JavaScript character based tile engine.</li>
-		</ul>
-
-		<h3>Utilities and such</h3>
-		<p>Miscellaneous little projects that are not games.</p>
-		<ul>
-		<li><a href="https://github.com/tapio/live-server">live-server</a> - A simple development http server with live reload capability</li>
-		<li><a href="https://github.com/tapio/obj-magic">obj-magic</a> - A tool for manipulating Wavefront OBJ 3d meshes</li>
-		<li><a href="https://github.com/tapio/tbcis">tbcis</a> - Tiny continuous integration system</li>
-		<li><a href="https://github.com/tapio/nautilus-git-scripts">nautilus-git-scripts</a> - Interacting with Git repositories through Nautilus file manager</li>
-		</ul>
-
-		<h3>Stalled</h3>
-		<p>Interesting games that have not seen updates for some time, but I hope to pick up again in the future.</p>
-		<ul>
-		<li>Infiniverse - <a href="http://www.infiniverse-game.com">http://www.infiniverse-game.com</a></li>
-		<li>Dawn of the Tomatoes - <a href="https://github.com/tapio/tomato">https://github.com/tapio/tomato</a></li>
-		</ul>
-
-		<h3>Old or obsolete</h3>
-		<p>These were done years ago and won't be developed further.</p>
-		<ul>
-		<li>Grid Space - <a href="https://github.com/tapio/grid-space">https://github.com/tapio/grid-space</a></li>
-		<li>Reaching for Stars! - <a href="https://github.com/tapio/reaching-for-stars">https://github.com/tapio/reaching-for-stars</a></li>
-		<li>Knight of Faith - <a href="https://github.com/tapio/koff">https://github.com/tapio/koff</a></li>
-		</ul>
-	</section>
-
-	<footer>
-		Theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-	</footer>
-
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-32826962-1");
-			pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
-
-</div></div></body>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			!function ($) {
+				$(function(){
+					// carousel demo
+					$('#myCarousel').carousel()
+				})
+			}(window.jQuery)
+		</script>
+	</body>
 </html>
