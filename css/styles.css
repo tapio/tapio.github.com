@@ -140,6 +140,10 @@ body {
 .featurette {
 	padding-top: 30px;
 }
+.featurette-image {
+	box-shadow: 0 0 15px 5px #888;
+	border-radius: 5px;
+}
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
 .featurette-image.pull-left {
