@@ -29,8 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
 }
-.navbar-wrapper .navbar {
-
+.navbar-inner {
+	background-image: -moz-linear-gradient(top,#555,#111) !important;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#555),to(#111)) !important;
+	background-image: -webkit-linear-gradient(top,#555,#111) !important;
+	background-image: -o-linear-gradient(top,#555,#111) !important;
+	background-image: linear-gradient(to bottom,#555,#111) !important;
 }
 
 /* Remove border and change up box shadow for more contrast */
