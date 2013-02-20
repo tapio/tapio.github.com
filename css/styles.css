@@ -7,8 +7,13 @@ body {
 	padding-bottom: 40px;
 	color: #5a5a5a;
 	background: url('../img/bg.png') repeat; /* http://subtlepatterns.com/ */
+	font-family: 'Ubuntu', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Kreon', serif;
+	letter-spacing: 2px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
