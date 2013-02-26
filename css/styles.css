@@ -149,9 +149,13 @@ h1, h2, h3, h4, h5, h6 {
 .featurette {
 	padding-top: 30px;
 }
+.featurette-height-fix {
+	min-height: 280px;
+}
 .featurette-image {
 	box-shadow: 0 0 15px 5px #888;
 	border-radius: 5px;
+	margin-bottom: 40px;
 }
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -205,6 +209,10 @@ h1, h2, h3, h4, h5, h6 {
 		max-width: 40%;
 		margin: 0 auto 20px;
 	}
+	.featurette .label {
+		margin-bottom: 15px;
+	}
+
 }
 
 
@@ -217,9 +225,6 @@ h1, h2, h3, h4, h5, h6 {
 	.carousel {
 		margin-left: -20px;
 		margin-right: -20px;
-	}
-	.carousel .container {
-
 	}
 	.carousel .item {
 		height: 300px;
@@ -251,9 +256,8 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 18px;
 		line-height: 1.5;
 	}
-
 	.featurette .label {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 
 }
