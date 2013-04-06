@@ -121,22 +121,24 @@ h1, h2, h3, h4, h5, h6 {
 	top: auto;
 	bottom: 20px;
 }
-
+.no-carousel {
+	margin-top: 60px;
+}
 
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .span4 {
+.marketing .span6 {
 	text-align: center;
 }
 .marketing h2 {
 	font-weight: normal;
 }
-.marketing .span4 p {
-	margin-left: 10px;
-	margin-right: 10px;
+.marketing .span6 p {
+	text-align: justify;
+	margin: 10px 10px 80px 10px;
 }
 
 
