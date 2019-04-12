@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 	.featurette-image.pull-right {
 		display: block;
 		float: none;
-		max-width: 40%;
+		max-width: 80%;
 		margin: 0 auto 20px;
 	}
 	.featurette .label {
@@ -262,6 +262,9 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 15px;
 	}
 
+	.intro-img {
+		margin-top: 60px;
+	}
 }
 
 .carousel-img {
@@ -282,4 +285,8 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(0,0,0,0.7);
 	border-radius: 10px;
 	padding-bottom: 10px;
+}
+
+.intro-img {
+	margin-bottom: 20px;
 }
