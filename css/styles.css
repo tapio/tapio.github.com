@@ -176,6 +176,12 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -1px;
 }
 
+.extra-img {
+	margin: 0 10px 20px 10px;
+}
+.extra-img-container {
+	margin-top: 40px;
+}
 
 
 /* RESPONSIVE CSS
@@ -215,6 +221,9 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 15px;
 	}
 
+	.extra-img-container {
+		text-align: center;
+	}
 }
 
 
